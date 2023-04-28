@@ -1,0 +1,14 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/mixins';
+
+// override bootstrap functions to comply with --vars
+@import 'functions-override';
+
+// define static bootstrap variables here
+$border-radius: 1em;
+
+// finally import bootstrap (or a subset)
+// do not import ~bootstrap/scss/bootstrap
+// because it will override our own color-yiq
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/<module>';

@@ -1,0 +1,28 @@
+{
+  "name": "extended-bootstrap-4-var-support",
+  "version": "1.0.0",
+  "description": "Use CSS custom properties (--var) with bootstrap 4 (SCSS)",
+  "main": "index.js",
+  "sass": "scsss/_functions_override.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/townsweb/extended-bootstrap-4-var-support.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "--var",
+    "framework",
+    "scss",
+    "css",
+    "web"
+  ],
+  "author": "Johan Beckers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gist.github.com/518a511b2b2f6b96c4f429b3af2f169a"
+  },
+  "homepage": "https://gist.github.com/518a511b2b2f6b96c4f429b3af2f169a"
+}
